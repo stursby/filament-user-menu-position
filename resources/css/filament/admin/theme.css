@@ -1,0 +1,8 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+/* Hide the default topbar user menu */
+.fi-topbar .fi-user-menu {
+  @apply hidden;
+}
